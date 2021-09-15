@@ -1,8 +1,8 @@
-Main Exercises
-  - Create a Human class
-  - Create some instances to experiment with
-  - Give your Human some behaviour!
-  - Instantiate your Human with some state
+# Main Exercises
+#   - Create a Human class
+#   - Create some instances to experiment with
+#   - Give your Human some behaviour!
+#   - Instantiate your Human with some state
 
 class Human
 
@@ -12,11 +12,11 @@ class Human
     end
 
     def name
-      p "My name is #{name}"
+      p "My name is #{@name}"
     end
 
     def age
-      p "I am {age} years old"
+      p "I am #{@age} years old"
     end
 
     def vibe
@@ -24,3 +24,8 @@ class Human
     end
 
 end
+
+kim = Human.new("Kim", 34)
+kim.name
+kim.age
+kim.vibe
